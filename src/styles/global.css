@@ -1,0 +1,33 @@
+html {
+    font-size: 14px;
+}
+
+.btn-custom button:first-child {
+    background: transparent;
+    border: none;
+    color: #31CECB;
+    box-shadow: none !important;
+}
+
+.dropdown-header {
+    color: #345169 !important;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1rem !important;
+}
+
+.form-check label {
+    color: #345169;
+    cursor: pointer;
+}
+
+.form-check-input {
+    cursor: pointer;
+    width: 1.15rem !important;
+    height: 1.15rem !important;
+}
+
+.form-check-input:checked {
+    background-color: #31CECB !important;
+    border-color: #31CECB !important;
+}
