@@ -1,12 +1,12 @@
 import { Container, Row, Col } from 'reactstrap';
-import { Tabela } from "./components/Tabela";
+import { RelatorioChargeback } from './components/RelatorioChargeback';
 
 function App() {
   return (
     <Container>
       <Row>
         <Col className="mt-5">
-          <Tabela />
+          <RelatorioChargeback />
         </Col>
       </Row>
     </Container>
